@@ -15,7 +15,8 @@
       2. ffmpeg
 5. 拉流实现
       1. [浏览器支持编解码器类型](./浏览器支持编解码器类型.md)
-      2. vlc
-      3. html
+      2. [[FFMPEG]转换MPEG4格式文件到H264](./ffmpeg-转换mpeg4到h264.md)
+      3. vlc
+      4. html
 6. 错误
       1. [OBS启动串流失败 - 注意：如果你使用的是NVENC或AMD编码器,请确保您的视频驱动程序是最新的.](./error.md)
