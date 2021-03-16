@@ -1,7 +1,7 @@
 # 站点名称
 site_name: 'Stream'
 # 仓库链接
-repo_url: https://github.com/zjykzj/Stream
+repo_url: https://github.com/ZJCV/Stream
 # 作者
 site_author: 'zhujian'
 # 版权信息
@@ -21,12 +21,24 @@ theme:
     name: 'material'
 # markdown扩展
 markdown_extensions:
-    - toc:
-        permalink: true
-    - pymdownx.arithmatex
-
+  # mathjax
+  - pymdownx.arithmatex:
+      generic: true
+    
+# mathjax
 extra_javascript:
-    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 # 导航
 nav:
     - Home: index.md
+    - 基础:
+        - '点播 vs. 直播': base/点播-直播.md
+        - 'RTMP vs. RTSP vs. HLS': base/rtmp-rtsp-hls.md
+        - 浏览器支持编解码器类型: base/supported_video_type.md
+        - '[FFMPEG]转换MPEG4为H264格式': base/ffmpeg-mpeg4-to-h264.md
+    - 流服务器:
+        - nginx-rtmp-module: server/nginx-rtmp-module.md
+    - Error: error.md

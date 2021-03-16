@@ -1,15 +1,13 @@
 
-# [FFMPEG]转换MPEG4格式文件到H264
+# [FFMPEG]转换MPEG4为H264格式
 
-参考：[Videojs does not play converted mp4 file](https://stackoverflow.com/questions/41949324/videojs-does-not-play-converted-mp4-file)
-
-* 转换单个文件
+## 单文件转换
 
 ```
 ffmpeg -i input.mp4 -c:v libx264 -c:a copy -movflags +faststart output.mp4
 ```
 
-* 批量转换文件
+## 批量文件转换
 
 ```
 import os
@@ -44,3 +42,7 @@ def batch():
 if __name__ == '__main__':
     batch()
 ```
+
+## 相关阅读
+
+* [Videojs does not play converted mp4 file](https://stackoverflow.com/questions/41949324/videojs-does-not-play-converted-mp4-file)
