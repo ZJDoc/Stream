@@ -1,11 +1,11 @@
 <div align="right">
   语言:
     🇨🇳
-  <a title="英语" href="./README.en.md">🇺🇸</a>
+  <!-- <a title="英语" href="./README.en.md">🇺🇸</a> -->
   <!-- <a title="俄语" href="../ru/README.md">🇷🇺</a> -->
 </div>
 
- <div align="center"><a title="" href="https://github.com/zjykzj/Stream"><img align="center" src="./imgs/Stream.png"></a></div>
+ <div align="center"><a title="" href="https://github.com/ZJDoc/Stream"><img align="center" src="./imgs/Stream.png"></a></div>
 
 <p align="center">
   «Stream»记录了视频流媒体服务器的搭建以及推/拉流操作
@@ -20,8 +20,6 @@
 
 - [内容列表](#内容列表)
 - [背景](#背景)
-- [安装](#安装)
-- [使用](#使用)
 - [主要维护人员](#主要维护人员)
 - [致谢](#致谢)
 - [参与贡献方式](#参与贡献方式)
@@ -29,11 +27,7 @@
 
 ## 背景
 
-
-## 安装
-
-
-## 使用
+整理关于视频流服务器的使用，包括`FFMPEG/EasyDarwin/OpenCV`等工具
 
 ## 主要维护人员
 
