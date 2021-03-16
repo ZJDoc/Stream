@@ -21,10 +21,14 @@ theme:
     name: 'material'
 # markdown扩展
 markdown_extensions:
-  # mathjax
+  # 参考[MathJax](https://squidfunk.github.io/mkdocs-material/reference/mathjax/)，支持数学公式渲染
   - pymdownx.arithmatex:
       generic: true
-    
+    # 参考[Icons + Emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)，执行Markdown Emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 # mathjax
 extra_javascript:
   - javascripts/config.js
@@ -38,7 +42,9 @@ nav:
         - '点播 vs. 直播': base/点播-直播.md
         - 'RTMP vs. RTSP vs. HLS': base/rtmp-rtsp-hls.md
         - 浏览器支持编解码器类型: base/supported_video_type.md
-        - '[FFMPEG]转换MPEG4为H264格式': base/ffmpeg-mpeg4-to-h264.md
+    - FFMPEG:
+        - '[FFMPEG]安装': ffmpeg/ffmpeg-install.md
+        - '[FFMPEG]转换MPEG4为H264格式': ffmpeg/ffmpeg-mpeg4-to-h264.md
     - 流服务器:
         - nginx-rtmp-module: server/nginx-rtmp-module.md
     - 推流:
