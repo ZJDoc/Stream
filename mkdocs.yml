@@ -49,4 +49,4 @@ nav:
         - nginx-rtmp-module: server/nginx-rtmp-module.md
     - 推流:
         - '[FFMPEG]RTSP/RTMP推流': push/ffmpeg-rtsp-rtmp.md
-    - Error: error.md
+    - ERROR: error.md
