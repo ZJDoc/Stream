@@ -36,4 +36,4 @@ export FFMPEG_HOME=/path/to/ffmpeg
 export PATH=$FFMPEG_HOME/bin:$PATH
 ```
 
-**当出现多个`ffmpeg`，一定要查询全局变量，不让你操作调整的可能一直不是实际运行的那个。:cry: :cry: :cry:**
+**当出现多个`ffmpeg`，一定要查询全局变量，不然你操作调整的可能不是实际运行的那个。:cry: :cry: :cry:**
