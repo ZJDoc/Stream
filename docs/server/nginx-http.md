@@ -1,17 +1,15 @@
 
 # 基于HTTP的点播服务器
 
-nginx 1.1.3之后已经默认支持mp4，flv模块，无须第三方模块支持
+`nginx 1.1.3`之后已经默认支持`mp4，flv`模块，无须第三方模块支持
 
 ## 下载
 
-* [nginx: download](http://nginx.org/en/download.html)
-
-当前使用`nginx-1.18.0`
+进入官网[nginx: download](http://nginx.org/en/download.html)，下载源码包。当前使用`nginx-1.18.0`
 
 ## 依赖
 
-参考：[rtmp-hls-server/Dockerfile](https://github.com/TareqAlqutami/rtmp-hls-server/blob/master/Dockerfile)
+参考[rtmp-hls-server/Dockerfile](https://github.com/TareqAlqutami/rtmp-hls-server/blob/master/Dockerfile)安装依赖程序
 
 ```
 apt-get install -y \
@@ -24,8 +22,6 @@ apt-get install -y \
 ```
 
 ## 编译
-
-参考：[nignx搭建流媒体播放器](https://blog.csdn.net/fengchao2016/article/details/104024500)
 
 ```
 # 解压
@@ -104,3 +100,7 @@ Thank you for using nginx.
 ```
 http://localhost:80/video/output.mp4
 ```
+
+## 相关阅读
+
+* [nignx搭建流媒体播放器](https://blog.csdn.net/fengchao2016/article/details/104024500)

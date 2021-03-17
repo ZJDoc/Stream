@@ -47,6 +47,7 @@ nav:
         - '[FFMPEG]转换MPEG4为H264格式': ffmpeg/ffmpeg-mpeg4-to-h264.md
     - 流服务器:
         - nginx-rtmp-module: server/nginx-rtmp-module.md
+        - 基于HTTP的点播服务器: server/nginx-http.md
     - 推流:
         - '[FFMPEG]RTSP/RTMP推流': push/ffmpeg-rtsp-rtmp.md
     - ERROR: error.md
