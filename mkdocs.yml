@@ -38,18 +38,3 @@ extra_javascript:
 # 导航
 nav:
     - Home: index.md
-    - 基础:
-        - '点播 vs. 直播': base/点播-直播.md
-        - 'RTMP vs. RTSP vs. HLS': base/rtmp-rtsp-hls.md
-        - 浏览器支持编解码器类型: base/supported_video_type.md
-    - FFMPEG:
-        - '[FFMPEG]安装': ffmpeg/ffmpeg-install.md
-        - '[FFMPEG]转换MPEG4为H264格式': ffmpeg/ffmpeg-mpeg4-to-h264.md
-    - 流服务器:
-        - nginx-rtmp-module: server/nginx-rtmp-module.md
-        - '[Docker]rtmp-hls-server': server/rtmp-hls-server.md
-        - 基于HTTP的点播服务器: server/nginx-http.md
-        - EasyDarwin: server/easydarwin.md
-    - 推流:
-        - '[FFMPEG]RTSP/RTMP推流': push/ffmpeg-rtsp-rtmp.md
-    - ERROR: error.md
