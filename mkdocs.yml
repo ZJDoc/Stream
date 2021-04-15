@@ -52,4 +52,4 @@ nav:
         - EasyDarwin: server/easydarwin.md
     - 推流:
         - '[FFMPEG]RTSP/RTMP推流': push/ffmpeg-rtsp-rtmp.md
-    - ERROR: error.md
+    - 问题解答: troubleshooting.md
